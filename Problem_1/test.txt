@@ -1,0 +1,9 @@
+
+Payslip for Employee
+---------------------
+Name:  Gojo Satoru
+Gross Salary = Rp6000000,00
+Tax (20%) = Rp1200000,00
+Installment = Rp200000,00
+Insurance = Rp100000,00
+Net Salary = Rp4500000,00
