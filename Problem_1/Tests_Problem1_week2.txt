@@ -1,0 +1,54 @@
+Payslip for Employee
+---------------------
+Name:  Gojo Satoru
+Base Salary = Rp 4000000
+Percentage (in %) to calculate Gross Salary: 150
+Installment = Rp 200000
+Insurance = Rp 100000
+
+Payslip for Employee
+---------------------
+Name = Gojo Satoru
+Gross Salary = Rp6000000,00
+Tax (20%) = Rp1200000,00
+Installment = Rp200000,00
+Insurance = Rp100000,00
+Net Salary = Rp4500000,00
+
+
+
+Payslip for Employee
+---------------------
+Name:  Itadori Yuji
+Base Salary = Rp 4000000
+Percentage (in %) to calculate Gross Salary: 200
+Installment = Rp 300000
+Insurance = Rp 200000
+
+Payslip for Employee
+---------------------
+Name = Itadori Yuji
+Gross Salary = Rp8000000,00
+Tax (20%) = Rp1600000,00
+Installment = Rp300000,00
+Insurance = Rp200000,00
+Net Salary = Rp5900000,00
+
+
+
+Payslip for Employee
+---------------------
+Name:  Fushiguro Megumi
+Base Salary = Rp 4000000
+Percentage (in %) to calculate Gross Salary: 105
+Installment = Rp 100000
+Insurance = Rp 50000
+
+Payslip for Employee
+---------------------
+Name = Fushiguro Megumi
+Gross Salary = Rp4200000,00
+Tax (20%) = Rp840000,00
+Installment = Rp100000,00
+Insurance = Rp50000,00
+Net Salary = Rp3210000,00
