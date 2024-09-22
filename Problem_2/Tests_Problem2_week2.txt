@@ -1,0 +1,31 @@
+Enter the coefficient a: 1
+Enter the coefficient b: 5
+Enter the coefficient c: 6
+
+discriminant = 1 (positive)
+
+The equation has two distinct real roots:
+x1 = -2
+x2 = -3
+
+
+
+Enter the coefficient a: 1
+Enter the coefficient b: 4
+Enter the coefficient c: 4
+
+discriminant = 0
+The equation has exactly one real root:
+x = -2
+
+
+
+Enter the coefficient a: 1
+Enter the coefficient b: 2
+Enter the coefficient c: 5
+
+discriminant = -16 (negative)
+
+The equation has no real roots (complex roots):
+x1 = -1 + 2i
+x2 = -1 - 2i
