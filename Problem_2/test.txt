@@ -1,4 +1,0 @@
-discriminant = 1 (positive)
-The equation has two distinct real roots:
-x1 = -2
-x2 = -3
