@@ -1,6 +1,4 @@
-#include <iostream>
-#include <fstream> // Include the fstream library for file output
-#include <string>
+#include <iostream> // Include the iostream library for input and output
 
 using namespace std;
 
@@ -11,15 +9,6 @@ int main() {
     int percentage;          
     int installment;            
     int insurance;              
-
-    // Open a file to write the payslip
-    ofstream outFile("test.txt");
-
-    // Check if the file is opened successfully
-    if (!outFile) {
-        cerr << "Error opening file!" << endl;
-        return 1; // Exit the program if the file cannot be opened
-    }
 
     // Prompt the user to enter the employee's details
     cout << "Payslip for Employee" << endl;
@@ -36,7 +25,12 @@ int main() {
     cin >> percentage;
 
     // Calculate the gross salary from the percentage
-    int grossSalary = baseSalary * (percentage / 100.0);
+    int grossSalary = baseSalary * (percentage / 100.0); // for the prompt that i will input will be equal or  
+                                                         // more then 100% because gross salary is basically how much salary you actually get
+                                                         // including bonuses or additional payments before taxes.
+                                                         // so we can conclude that gross salary is greater then the base salary
+                                                         
+      
 
     // Prompt the user for installment and insurance amounts
     cout << "Installment = Rp ";
@@ -46,22 +40,18 @@ int main() {
     cin >> insurance;
 
     // Calculate the tax and net salary
-    int tax = grossSalary * 0.2;                      
-    int netSalary = grossSalary - tax - installment - insurance; 
+    int tax = grossSalary * 0.2;                      // Calculate the tax amount (20%)
+    int netSalary = grossSalary - tax - installment - insurance; // Calculate the net salary
 
-    // Write the payslip to the file
-    outFile << "\nPayslip for Employee" << endl;
-    outFile << "---------------------" << endl;
-    outFile << "Name:  " << name << endl; // Maintain the format with space after "Name:"
-    outFile << "Gross Salary = Rp" << grossSalary << ",00" << endl;
-    outFile << "Tax (20%) = Rp" << tax << ",00" << endl;
-    outFile << "Installment = Rp" << installment << ",00" << endl;
-    outFile << "Insurance = Rp" << insurance << ",00" << endl;
-    outFile << "Net Salary = Rp" << netSalary << ",00" << endl;
-
-    // Close the file
-    outFile.close();
-    cout << "Payslip written to test.txt" << endl;
+    // Display the payslip in a simple format
+    cout << "\nPayslip for Employee" << endl;
+    cout << "---------------------" << endl;
+    cout << "Name = " << name << endl;
+    cout << "Gross Salary = Rp" << grossSalary << ",00" << endl;
+    cout << "Tax (20%) = Rp" << tax << ",00" << endl;
+    cout << "Installment = Rp" << installment << ",00" << endl;
+    cout << "Insurance = Rp" << insurance << ",00" << endl;
+    cout << "Net Salary = Rp" << netSalary << ",00" << endl;
 
     return 0;
 }
